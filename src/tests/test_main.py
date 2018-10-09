@@ -1,12 +1,12 @@
 from selenium import webdriver
 import pytest
 import sys
-from utils.basetest import BaseTest
-from utils.Pages.BasePage import *
-from utils.Pages.HomePage import *
+from .utils.basetest import BaseTest
+from .utils.Pages.BasePage import *
+from .utils.Pages.HomePage import *
 import unittest
 import time
-from utils.Setup import *
+from .utils.Setup import *
 
 @pytest.mark.incremental
 class TestMain(BaseTest):
