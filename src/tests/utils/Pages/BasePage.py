@@ -9,5 +9,5 @@ class BasePage(object):
 
 
     def open(self):
-        self.browser.get("https://www.agoda.com/")
+        self.browser.get("https://www.agoda.com/tr-tr")
 
